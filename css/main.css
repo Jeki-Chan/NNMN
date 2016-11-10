@@ -1,0 +1,184 @@
+body {
+    font-family: "Open Sans", "Arial", "Trebuchet MS", Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #F6F6F6;
+}
+a,
+a:link,
+a:visited{
+    color: #000000;
+    transition: color 0.3s, border 0.4s, opacity 0.3s;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.6;
+    color: #FF8702;
+}
+
+header{
+    height: 122px;
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #FFF;
+}
+.line{
+    height: 42px;
+    background: #000;
+}
+.line a{
+    color: #FFFFFF;
+}
+.line-left{
+    font-size: 20px;
+    background: url(../images/icon_phone.png) 105px 12px no-repeat;
+    float: left;
+    padding: 6px 0 0 129px;
+}
+.line-right{
+    text-transform: uppercase;
+    color: #000;
+    background: url(../images/icon_liked.png) 0 10px no-repeat;
+    float: right;
+    padding: 7px 105px 0 26px;
+}
+.header-logo{
+    margin-left: 105px;
+    float: left;
+}
+.header-logo img{
+    max-height: 80px;
+    max-width: 220px;
+}
+
+nav{
+    float: left;
+}
+.header-menu{
+    float: left;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-menu-item{
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    float: left;
+    margin: 0 0 0 29px;
+    padding: 27px 0 0 0;
+    height: 50px;
+}
+.header-menu-item > a:hover {
+    color: #000;
+}
+.active,
+.header-menu-item:hover {
+    border-bottom: 3px solid #FF8702;
+}
+.header-sub-menu {
+    list-style: none;
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    text-transform: none;
+    font-size: 14px;
+    padding: 50px 0 14px 20px;
+    margin: 0 0 0 -20px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    top: 8px;
+}
+.see-me{
+    position: relative;
+    z-index: 8;
+}
+.header-sub-menu:hover{
+    opacity: 1;
+}
+.header-sub-menu-item{
+    min-width: 180px;
+    padding: 14px 0 1px 0;
+}
+
+.search{
+    float: right;
+    margin: 19px 115px 0 0px;
+}
+.submit{
+    background: url(../images/icon_search.png) no-repeat 10px 3px #FFF;
+    width: 44px;
+    height: 39px;
+    border: 0;
+    float: right;
+}
+.text{
+    color: transparent;
+    font-size: 24px;
+    width: 200px;
+    padding: 10px 11px 10px 20px;
+    border: 0px;
+}
+.search:focus, .search:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, .16);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .16);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .16);
+    width: 400px;
+    border: 1px solid #EEE;
+    transition: box-shadow 0.4s, color 0.4s, width 0.4s, border 0.4s;
+}
+
+.left-col{
+    width: 201px;
+    font-size: 14px;
+    background-color: #FFF;
+    padding: 12px 0 15px 18px;
+    margin: 33px 0 0 -220px;
+    float: left;
+}
+main li{
+    margin: 15px 0;
+}
+.menu{
+    margin: 0 0 0 2px;
+    padding: 0;
+    list-style: none;
+}
+.right-col {
+    width: 218px;
+    padding: 13px 23px 0 20px;
+    margin: 33px 104px 0 0;
+    font-size: 14px;
+    float: right;
+    background-color: #FFF;
+}
+.img{
+    max-width: 61px;
+    height: auto;
+    margin: 5px;
+}
+.news{
+    border-bottom: solid 1px #F6F6F6;
+    margin: 9px 0 0 0px;
+    padding-bottom: 4px;
+}
+.news-text{
+    margin: -4px 0 0 4px;
+    line-height: normal;
+}
+.style-text{
+    font-weight: bold;
+}
+.rate{
+    margin: 10px 0 0 1px;
+    letter-spacing: -3px;
+}
+span{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 3px;
+}
+p{
+    margin: 11px 0 10px 3px;
+}
